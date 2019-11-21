@@ -28,6 +28,8 @@ body {
     max-width: 50px;
     max-height: 50px;
     background-color: #242424;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 .hamburger span {
