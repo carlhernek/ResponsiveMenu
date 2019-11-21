@@ -1,8 +1,11 @@
 let halfScreen = Math.floor(window.innerWidth/2);
-let memes = document.getElementById("memes");
+let meme = document.getElementById("meme");
+
+
+console.log(meme);
 
 function touchCoordinates(event) {
     let x = event.touches[0].clientX;
     let y = event.touches[0].clientY;
-    memes.innerHTML = " " + x + " " + y;
+    meme.innerHTML = x + ", " + y;
 }
