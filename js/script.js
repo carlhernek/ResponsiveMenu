@@ -5,9 +5,11 @@ function touchCoordinates(event) {
     let x = event.touches[0].clientX;
     // let y = event.touches[0].clientY;
     if (x < halfScreen) { 
-        hmbgMenu.style.alignSelf = "flex-start";
+        hmbgMenu.classList.remove("right")
+        hmbgMenu.classList.add("left")
     };
     if (x > halfScreen) { 
-        hmbgMenu.style.alignSelf = "flex-end" 
+        hmbgMenu.classList.remove("left")
+        hmbgMenu.classList.add("right")
     };
 };
