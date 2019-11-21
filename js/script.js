@@ -5,11 +5,14 @@ function touchCoordinates(event) {
     let x = event.touches[0].clientX;
     // let y = event.touches[0].clientY;
     if (x < halfScreen) { 
-        hmbgMenu.classList.remove("right")
-        hmbgMenu.classList.add("left")
+        hmbgMenu.classList.remove("hamburger-center");
+        hmbgMenu.classList.remove("hamburger-right");
+        hmbgMenu.classList.add("hamburger-left");
     };
     if (x > halfScreen) { 
-        hmbgMenu.classList.remove("left")
-        hmbgMenu.classList.add("right")
+        hmbgMenu.classList.remove("hamburger-center");
+        hmbgMenu.classList.remove("hamburger-left");
+        hmbgMenu.classList.add("hamburger-right");
     };
 };
+
