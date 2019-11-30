@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #c5a78f;
+    background-color: #2e3b3b;
 }
 
 .menucontainer {
@@ -45,7 +45,7 @@ body {
     height: 40px;
     width: 40px;
     margin-top: 5px;
-    background-color: #3d3d3d;
+    background-color: #dbdbdb;
     position: absolute;
 }
 
@@ -53,7 +53,7 @@ body {
     height: 3px;
     width: 80%;
     margin: 2px;
-    background-color: blanchedalmond;
+    background-color: rgb(70, 70, 70);
 }
 
 @media screen and (orientation:landscape) {
@@ -101,7 +101,7 @@ body {
     height: 0vh;
     width: 200px;
     margin-top: 50px;
-    background-color: #3d3d3d;
+    background-color: #dbdbdb;
     position: absolute;
 }
 
